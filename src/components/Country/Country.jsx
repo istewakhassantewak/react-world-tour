@@ -5,7 +5,7 @@ const Country = ({country}) => {
     return (
         <div className="country">
            <h3>name: {name?.common || "Missing"}</h3> 
-           <img src="{flags.png}" alt="" />
+           <img src={flags.png} alt="img" />
         </div>
     );
 };
