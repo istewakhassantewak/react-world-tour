@@ -8,3 +8,14 @@
     background-color: bisque;
     color: black;
 }
+
+.flag-container img {
+    width: 100px;
+    display: flex;
+    gap: 10px;
+}
+
+.flag-container {
+    display: flex;
+    gap: 10px;
+}
