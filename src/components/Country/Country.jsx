@@ -7,7 +7,8 @@ const Country = ({country,handleVisitedCountry}) => {
     const handleVisited=()=>{
         setVisited(!visited)
     }
-    console.log(handleVisitedCountry)
+    const passWithParamas=()=> handleVisitedCountry(country)
+    
     return (
         <div className={`country ${visited  && 'visited'}`}>
            <h3 style={{color: visited ? 'Purple' : 'white'}}>name: {name?.common || "Missing"}</h3> 
@@ -15,7 +16,7 @@ const Country = ({country,handleVisitedCountry}) => {
            <p>Population: {population}</p>
            <p><small>area: {area}</small></p>
            <p>Code: {cca3}</p>
-           <button>Mark Visited</button>
+           <button onClick={passWithParamas}>Mark Visited</button>
            <button onClick={handleVisited}>{visited ? 'Visited' : 'Going'}</button>
            {visited ? 'I have visited this country.' : 'I want to visit'}
         </div>
