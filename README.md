@@ -8,7 +8,7 @@ A modern and responsive world tour web application built with **React.js** and *
 
 ## 📂 GitHub Repository
 
-🔗 **Repository:** [React World Tour Repository]([https://github.com/istewakhassantewak/react-world-tour?utm_source=chatgpt.com](https://github.com/istewakhassantewak/react-world-tou))
+🔗 **Repository:** [React World Tour Repository]([https://github.com/istewakhassantewak/react-world-tour])
 
 ---
 
